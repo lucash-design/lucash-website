@@ -199,3 +199,44 @@ nav a:hover {
     color: #d4af37;
     margin-bottom: 12px;
 }
+
+.website-preview {
+    background-color: #f4f6fa;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.preview-header {
+    background-color: #101c33;
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.preview-content {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.preview-content h4 {
+    color: #101c33;
+    margin-bottom: 10px;
+}
+
+.preview-content p {
+    color: #555555;
+}
+
+.preview-button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #101c33;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
