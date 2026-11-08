@@ -177,3 +177,25 @@ nav a:hover {
     background-color: #128C7E;
     transform: translateY(-2px);
 }
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.portfolio-card {
+    background-color: #ffffff;
+    color: #101c33;
+    padding: 25px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.portfolio-card h3 {
+    color: #d4af37;
+    margin-bottom: 12px;
+}
