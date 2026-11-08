@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #17243b;
+  line-height: 1.6;
+}
+
+header {
+  background: #101c33;
+  color: white;
+  padding: 25px 8%;
+}
+
+header h2 {
+  font-size: 30px;
+  color: #d4af37;
+}
+
+header p {
+  color: #ffffff;
+}
+
+main {
+  padding: 100px 8%;
+  min-height: 75vh;
+}
+
+main h1 {
+  font-size: 42px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}nav {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d4af37;
+}#services {
+  padding: 60px 8%;
+  background: white;
+}
+
+#services h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.service {
+  padding: 20px;
+  margin-bottom: 15px;
+  background: #f5f5f5;
+  border-left: 4px solid #d4af37;
+  border-radius: 5px;
+}#about {
+  padding: 60px 8%;
+  background: #f5f5f5;
+}
+
+#about h2 {
+  font-size: 32px;
+  color: #101c33;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  max-width: 700px;
+  line-height: 1.8;
+}#portfolio {
+  padding: 60px 8%;
+  background: white;
+}
+
+#portfolio h2 {
+  font-size: 32px;
+  color: #101c33;
+  margin-bottom: 20px;
+}
+
+#portfolio p {
+  font-size: 18px;
+  line-height: 1.8;
+}#contact {
+  padding: 60px 8%;
+  background: #101c33;
+  color: white;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}footer {
+  background: #080f1e;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}@media (max-width: 600px) {
+  main h1 {
+    font-size: 30px;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  #services,
+  #about,
+  #portfolio,
+  #contact {
+    padding: 40px 6%;
+  }
+
+  #about h2,
+  #services h2,
+  #portfolio h2,
+  #contact h2 {
+    font-size: 26px;
+  }
+}
