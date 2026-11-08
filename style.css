@@ -147,5 +147,18 @@ nav a:hover {
   #portfolio h2,
   #contact h2 {
     font-size: 26px;
-  }
+  }.hero-button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #101c33;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-button:hover {
+    background-color: #ffffff;
+}
 }
